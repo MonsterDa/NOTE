@@ -272,6 +272,7 @@
     //    }else{
     ////        执行未结束
     //    }
+    
 }
 
 - (void)TDdispatch_barrier_async{

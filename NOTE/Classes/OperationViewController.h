@@ -1,16 +1,16 @@
 //
-//  GCDViewController.h
+//  OperationViewController.h
 //  NOTE
 //
-//  Created by 卢腾达 on 2018/11/5.
+//  Created by 卢腾达 on 2018/11/27.
 //  Copyright © 2018 卢腾达. All rights reserved.
-//GCD 
+// NSOperation整理
 
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface GCDViewController : UIViewController
+@interface OperationViewController : UIViewController
 
 @end
 

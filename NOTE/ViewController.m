@@ -50,9 +50,11 @@
 }
 - (NSMutableArray *)dataArray{
     if (!_dataArray) {
-        _dataArray = [NSMutableArray array];
-        [_dataArray addObject:@"GCDViewController"];
-        [_dataArray addObject:@"NSURLSessionViewController"];
+        _dataArray = [NSMutableArray arrayWithArray:@[@"GCDViewController",
+                                                      @"OperationViewController",
+                                                      @"NSURLSessionViewController"
+                                                      ]];
+      
     }
     return _dataArray;
 }
