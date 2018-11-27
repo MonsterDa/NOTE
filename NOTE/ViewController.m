@@ -52,7 +52,8 @@
     if (!_dataArray) {
         _dataArray = [NSMutableArray arrayWithArray:@[@"GCDViewController",
                                                       @"OperationViewController",
-                                                      @"NSURLSessionViewController"
+                                                      @"NSURLSessionViewController",
+                                                      @"WKWebViewViewController"
                                                       ]];
       
     }

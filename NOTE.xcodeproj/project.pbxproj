@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DB6DB23121ACEA4C00BC2A22 /* OperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6DB23021ACEA4C00BC2A22 /* OperationViewController.m */; };
+		DB6DB23421ACEFD500BC2A22 /* WKWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6DB23321ACEFD500BC2A22 /* WKWebViewViewController.m */; };
 		DBF9DD7A219041420030D1AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF9DD79219041420030D1AE /* AppDelegate.m */; };
 		DBF9DD80219041420030D1AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBF9DD7E219041420030D1AE /* Main.storyboard */; };
 		DBF9DD82219041440030D1AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBF9DD81219041440030D1AE /* Assets.xcassets */; };
@@ -40,6 +41,8 @@
 /* Begin PBXFileReference section */
 		DB6DB22F21ACEA4C00BC2A22 /* OperationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OperationViewController.h; sourceTree = "<group>"; };
 		DB6DB23021ACEA4C00BC2A22 /* OperationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OperationViewController.m; sourceTree = "<group>"; };
+		DB6DB23221ACEFD500BC2A22 /* WKWebViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKWebViewViewController.h; sourceTree = "<group>"; };
+		DB6DB23321ACEFD500BC2A22 /* WKWebViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWebViewViewController.m; sourceTree = "<group>"; };
 		DBF9DD75219041420030D1AE /* NOTE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NOTE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBF9DD78219041420030D1AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DBF9DD79219041420030D1AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -151,6 +154,8 @@
 				DB6DB23021ACEA4C00BC2A22 /* OperationViewController.m */,
 				DBF9DDB12190427B0030D1AE /* NSURLSessionViewController.h */,
 				DBF9DDB22190427B0030D1AE /* NSURLSessionViewController.m */,
+				DB6DB23221ACEFD500BC2A22 /* WKWebViewViewController.h */,
+				DB6DB23321ACEFD500BC2A22 /* WKWebViewViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -285,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB6DB23421ACEFD500BC2A22 /* WKWebViewViewController.m in Sources */,
 				DBF9DDB32190427B0030D1AE /* NSURLSessionViewController.m in Sources */,
 				DBF9DDAC219041930030D1AE /* ViewController.m in Sources */,
 				DBF9DD88219041440030D1AE /* main.m in Sources */,
