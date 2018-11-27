@@ -18,7 +18,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = UIColor.whiteColor;
     NSURLSession *session = [NSURLSession sharedSession];
-    NSString *urlString = @"http://114.215.16.38:8090/zhaoniuw_web/home/getHomeBannerInfos";
+    NSString *urlString = @"";
     urlString = [urlString stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];
     NSURL *url = [NSURL URLWithString:urlString];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
